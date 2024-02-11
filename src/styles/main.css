@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background: rgb(200, 168, 192);
+  background: linear-gradient(27deg, rgb(236, 177, 224) 10%, rgb(208, 168, 198) 18%, rgb(232, 191, 224) 30%, rgb(210, 149, 209) 77%, rgb(187, 149, 194) 100%);
+}
+
+.p-breadcrumb {
+  padding-left: 5px;
+}
+
+.p-menuitem-text {
+  font-weight: 550;
+  color: #072e42 !important;
+}
+
+.p-menuitem-icon {
+  font-weight: 580 !important;
+  color: #072e42 !important;
+}
+
+.p-menuitem-separator {
+  color: #072e42 !important;
+}
+
+.p-card-shadoww {
+  box-shadow: -3px 1px 8px rgb(222 197 216), 6px 2px 4px rgb(246 223 246), -2px 4px 4px -1px rgb(154 120 147) !important;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.p-radiobutton.man-style-radiobutton.p-highlight .p-radiobutton-box {
+  background: #326ecf !important;
+  border-color: #326ecf !important;
+}
+
+  .p-radiobutton.man-style-radiobutton.p-highlight .p-radiobutton-box {
+    border-color: #326ecf;
+    background: #326ecf;
+  }
+  .p-radiobutton.man-style-radiobutton:not(.p-disabled):has(.p-radiobutton-input:hover) .p-radiobutton-box {
+    border-color: #326ecf;
+  }
+  .p-radiobutton.man-style-radiobutton:not(.p-disabled):has(.p-radiobutton-input:hover).p-highlight .p-radiobutton-box {
+    border-color: #326ecf;
+    background: #326ecf;
+  }
+
+  .p-radiobutton.p-highlight .p-radiobutton-icon {
+    transform: translateZ(0) scale(1, 1);
+    visibility: visible;
+  }
+
+.layout-container {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+i.text-wrapper {
+  background-color: #e3badb;
+  border-radius: 6px;
+  color: #072e42;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  padding: 2px 6px;
+}
+
+.layout-topbar {
+  height: 5rem;
+  padding: 0 2rem 0 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 21rem;
+}
+
+.layout-sidebar {
+  width: 20rem;
+  overflow: visible;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 5rem);
+  left: 0;
+  top: 5rem;
+  -webkit-user-select: none;
+  user-select: none;
+  background: #ffffff;
+  z-index: 999;
+}
+
+.layout-content-wrapper {
+  margin-left: 20rem;
+  padding-top: 5rem;
+}
+
+.layout-content {
+  border-top: 1px solid #dba7d7;
+  overflow: auto;
+  height: calc(100vh - 5rem);
+  padding: 2rem;
+  background-color: #fcfcfd;
+  border-top-left-radius: 30px;
+  box-shadow: inset 2px 2px 4px #e5bade;
+}
