@@ -113,11 +113,11 @@
           </div>
 
           <div ref="observerItem" v-animateonscroll="{ enterClass: 'fadein', leaveClass: 'fadeout' }"
-               class="flex justify-content-center align-items-center h-30rem animation-duration-1000">
+               class="flex flex-column justify-content-center align-items-center h-30rem animation-duration-1000">
             <p class="mb-5 final-text">
               <i class="text-wrapper-final">Согласишь ли ты стать моей женой?</i>
-
             </p>
+            <img class="mt-2 mb-2" alt="I love you" src="../../assets/heart.png" width="400" height="300">
           </div>
         </div>
       </div>
