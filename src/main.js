@@ -17,7 +17,10 @@ import Image from 'primevue/image';
 import Carousel  from 'primevue/carousel';
 import RadioButton from 'primevue/radiobutton';
 import Button from 'primevue/button';
+import Dialog from 'primevue/dialog';
+import ProgressSpinner from 'primevue/progressspinner';
 import Tooltip from 'primevue/tooltip';
+import AnimateOnScroll from 'primevue/animateonscroll';
 
 
 
@@ -32,7 +35,10 @@ app.component('Breadcrumb', Breadcrumb)
 app.component('Image', Image)
 app.component('RadioButton', RadioButton)
 app.component('Button', Button)
+app.component('Dialog', Dialog)
+app.component('ProgressSpinner', ProgressSpinner)
 app.directive('tooltip', Tooltip);
+app.directive('animateonscroll', AnimateOnScroll);
 app.use(store)
 
 

@@ -4,6 +4,10 @@ body {
   background: linear-gradient(27deg, rgb(236, 177, 224) 10%, rgb(208, 168, 198) 18%, rgb(232, 191, 224) 30%, rgb(210, 149, 209) 77%, rgb(187, 149, 194) 100%);
 }
 
+label {
+  user-select: none;
+}
+
 .p-breadcrumb {
   padding-left: 5px;
 }
@@ -24,6 +28,10 @@ body {
 
 .p-card-shadoww {
   box-shadow: -3px 1px 8px rgb(222 197 216), 6px 2px 4px rgb(246 223 246), -2px 4px 4px -1px rgb(154 120 147) !important;
+}
+
+.p-card-shadoww-final {
+  box-shadow: 0px 0px 20px 20px rgb(222 197 216), 6px 2px 4px rgb(246 223 246), -2px 4px 4px -1px rgb(154 120 147) !important;
 }
 
 #app {
@@ -69,6 +77,20 @@ i.text-wrapper {
   font-style: normal;
   font-weight: 500;
   padding: 2px 6px;
+}
+
+i.text-wrapper-final {
+  background-color: #e3badb;
+  border-radius: 6px;
+  color: #072e42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 2px 6px;
+}
+
+.final-text {
+  font-size: 20px;
 }
 
 .layout-topbar {

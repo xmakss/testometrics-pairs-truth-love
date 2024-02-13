@@ -20,25 +20,25 @@
 
 <script>
 import HeaderPage from "@/components/headerPage";
-import firstPage from "@/components/testPages/firstPage";
-import secondPage from "@/components/testPages/secondPage";
-import thirdPage from "@/components/testPages/thirdPage";
-import fourthPage from "@/components/testPages/fourthPage";
-import fivethPage from "@/components/testPages/fivethPage";
-import sixthPage from "@/components/testPages/sixthPage";
-import seventhPage from "@/components/testPages/seventhPage";
-import eighthPage from "@/components/testPages/eighthPage";
-import ninethPage from "@/components/testPages/ninethPage";
-import tenthPage from "@/components/testPages/tenthPage";
-import elevenPage from "@/components/testPages/elevenPage";
-import twelvePage from "@/components/testPages/twelvePage";
-import thirteenPage from "@/components/testPages/thirteenPage";
-import fourteenPage from "@/components/testPages/fourteenPage";
-import manQuestFirst from "@/components/testPages/manQuestFirst";
-import manQuestSecond from "@/components/testPages/manQuestSecond";
-import manQuestThird from "@/components/testPages/manQuestThird";
-import womanQuestFirst from "@/components/testPages/womanQuestFirst";
-import womanQuestSecond from "@/components/testPages/womanQuestSecond";
+// import firstPage from "@/components/testPages/firstPage";
+// import secondPage from "@/components/testPages/secondPage";
+// import thirdPage from "@/components/testPages/thirdPage";
+// import fourthPage from "@/components/testPages/fourthPage";
+// import fivethPage from "@/components/testPages/fivethPage";
+// import sixthPage from "@/components/testPages/sixthPage";
+// import seventhPage from "@/components/testPages/seventhPage";
+// import eighthPage from "@/components/testPages/eighthPage";
+// import ninethPage from "@/components/testPages/ninethPage";
+// import tenthPage from "@/components/testPages/tenthPage";
+// import elevenPage from "@/components/testPages/elevenPage";
+// import twelvePage from "@/components/testPages/twelvePage";
+// import thirteenPage from "@/components/testPages/thirteenPage";
+// import fourteenPage from "@/components/testPages/fourteenPage";
+// import manQuestFirst from "@/components/testPages/manQuestFirst";
+// import manQuestSecond from "@/components/testPages/manQuestSecond";
+// import manQuestThird from "@/components/testPages/manQuestThird";
+// import womanQuestFirst from "@/components/testPages/womanQuestFirst";
+// import womanQuestSecond from "@/components/testPages/womanQuestSecond";
 import womanQuestThird from "@/components/testPages/womanQuestThird";
 
 export default {
@@ -52,25 +52,25 @@ export default {
       value: null,
       currentPage: 0,
       formData: [
-        firstPage,
-        secondPage,
-        thirdPage,
-        fourthPage,
-        fivethPage,
-        sixthPage,
-        seventhPage,
-        eighthPage,
-        ninethPage,
-        tenthPage,
-        elevenPage,
-        twelvePage,
-        thirteenPage,
-        fourteenPage,
-        manQuestFirst,
-        manQuestSecond,
-        manQuestThird,
-        womanQuestFirst,
-        womanQuestSecond,
+        // firstPage,
+        // secondPage,
+        // thirdPage,
+        // fourthPage,
+        // fivethPage,
+        // sixthPage,
+        // seventhPage,
+        // eighthPage,
+        // ninethPage,
+        // tenthPage,
+        // elevenPage,
+        // twelvePage,
+        // thirteenPage,
+        // fourteenPage,
+        // manQuestFirst,
+        // manQuestSecond,
+        // manQuestThird,
+        // womanQuestFirst,
+        // womanQuestSecond,
         womanQuestThird,
       ]
     }
